@@ -78,5 +78,37 @@ switch(cor) {
     default:
         console.log("A cor informada é inválida");
         break;
-
 }
+
+//LAÇOS DE REPETIÇÃO (WHILE / DO WHILE / FOR)
+console.log("-------------------");
+
+//WHILE
+let contador = 10
+
+while(contador > 0){
+    console.log('looping while: ', contador)
+    //todo laço de repetição precisa controlar a situação de parada
+    contador = contador - 1//contador-- 
+}
+
+console.log("-------------------");
+
+//DO WHILE 
+let numero = 100
+
+do{
+   console.log("looping-do-while: ", numero) 
+   numero = numero - 5
+} while (numero >=2)
+
+console.log("-------------------");
+
+//FOR 
+let passo
+
+for(passo = 0; passo < 10; passo = passo + 1) {
+    console.log('looping for: ', passo)
+}
+
+let numeroTabuada
